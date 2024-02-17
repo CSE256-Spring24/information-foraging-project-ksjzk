@@ -2,8 +2,16 @@
     position: relative;
     max-width: 1200px;
     margin: 100px auto;
-    background: #000;
+    background: #fff;
     opacity: 0.8;
+}
+
+.text-box h2 {
+    color: white;
+}
+
+.text-box p {
+    color: rgb(219, 212, 212);
 }
 
 .flow-container {
@@ -52,7 +60,7 @@
 
 .text-box {
     padding: 20px 30px;
-    background: #fff;
+    background: #1f1f1f;
     position: relative;
     border-radius: 6px;
     font-size: 15px;
@@ -84,7 +92,7 @@
     position: absolute;
     width: 6px;
     height: 100%;
-    background: #fff;
+    background: #1f1f1f;
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -118,7 +126,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid #1f1f1f;
     right: -15px;
 }
 
@@ -130,7 +138,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff;
+    border-right: 15px solid #1f1f1f;
     left: -15px;
 }
 
@@ -161,7 +169,7 @@
     }
 
     .left-container-arrow, .right-container-arrow{
-        border-right: 15px solid #fff;
+        border-right: 15px solid #f1f1f1;
         border-left: 0;
         left: -15px;
     }
